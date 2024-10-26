@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: 0;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+header{display:flex;
+justify-content: space-between;
+height: 75px;
+align-items: center;
+width: 1070px;
+}
+
+body{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+ 
+ 
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about{
+  background-image: url(../img/BG.png);
+  background-repeat: no-repeat;
+background-size: cover;
+color: white;
+width: 1070px;
+height: 560px;
+display: flex;
+padding:55px;
+padding-bottom: 75px;
+padding-top: 9px;
+margin-bottom: 21px;
+justify-content: space-between;
+    flex-direction: column;
+}
+
+.mission{
+  width: 1070px;
+height: 480px;
+display: flex;
+flex-direction: column;
+border: solid #080A4C;
+margin-bottom: 21px;
+padding:36px;
+padding-left: 78px;
+padding-right: 78px;
+border-radius: 10px;
+}
+
+h1{
+  font-family:"Ubuntu Sans";
+  font-size: 48px;
+  color: #080A4C;
+}
+
+h2{
+  font-family:"Ubuntu Sans";
+  font-size: 64px;
+  font-weight: 300px;
+}
+
+h3{margin: 0;
+  font-size: 16px;
+  color: #080A4C;
+  font-family:"Ubuntu Sans";
+
+  }
+
+
+p{
+
+  font-family: "Ubuntu Sans", serif;
+  font-size: 24px;
+  
+}
+
+
+.btn-new {
+  border: solid white 1px;
+  border-radius: 100px;
+  text-decoration: none;
+  background-color:#0A0A28 ;
+  color: none;
+  cursor: pointer;
+z-index: 4;
+
+}
+
+.btn-new:hover {
+
+  background-color: #0E1C65;
+ 
+}
+
+
+.wrapper{
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header ul{
+  display: flex;
+} 
+
+header ul li{
+  padding-left: 20px;
+}
+
+.list {font-family: "Ubuntu Sans"}
+
+.logo{
+  height: 37px;
+}
+
+.text{display: flex;
+margin-top: 20px;}
+
+.text_1{
+  font-weight: 300px;
+padding-bottom: 50px;
+margin-right: 15px;}
+
+.text_2{
+  margin-top: 25px;}
+
+
+
+.tag_b{
+
+  font-family: "Ubuntu Sans", serif;
+  font-size: 16px;
+  background-color: #080A4C;
+  color: white; 
+  width: 153px;
+  height: 43px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag_w {
+  font-family: "Ubuntu Sans", serif;
+  font-size: 16px;
+  color: #080A4C; 
+  border: solid #080A4C;
+  border-color: #080A4C;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+}
+footer{
+  display: flex;
+  width: 1070px;
+  height: 217px;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul{
+  display: flex;
+} 
+
+
+
+.horwrap{display: flex;
+flex-direction: row;}
+.verwrap{display: flex;
+flex-direction: column;}
+
+.mission_text{
+margin-left: 43px;
+}
+
+.footer_first {
+display: flex;
+}
+
+.horwrap_sp{display: flex;
+  flex-direction: row;
+justify-content: space-between;}
+
+
+.foot_tag {display: flex;
+  justify-content: center;
+  margin-top:15px;
+}
+
+footer ul{
+display: flex;
+justify-content: space-between;
+}
+
+.foot {
+  height: 26px;
+}
+
+.small_text{
+  font-size: 14px;
+margin-top:19px;
+font-weight: 400px;
+font-family: "Ubuntu Sans";
+color: #080A4C;
+}
+
+.contacts{
+  width:370px;
+  height: 63px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  height: 26px;
+}
+
+.logo_2{
+  height: 28px;
+}
+
+.tg{margin-left:20px;}
+
+.mission_text{
+  color: #080A4C;
+}
